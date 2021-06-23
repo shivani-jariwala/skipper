@@ -30,10 +30,10 @@ const UserSchema = mongoose.Schema({
   interestPerMonth: {
     type: Number,
   },
-  lumpsum:{
+  lumpSum:{
     type:Number
   },
-  emi_lumpsum:{
+  emiLumpsumNo:{
     type:Number
   },
   totalAmountPaid:{
